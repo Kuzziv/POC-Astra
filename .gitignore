@@ -1,0 +1,111 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django and Python environment
+*.env
+*.env.*.local
+.env
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Pipfile.lock
+poetry.lock
+
+# Local development settings
+local_settings.py
+
+# Pytest
+.cache/
+
+# Logs and debug
+logs/
+*.log
+*.stackdump
+*.bak
+*.swp
+*.swo
+*.pid
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+static_cdn/
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Test output
+test-results/
+playwright-report/
+.junit.xml
+xunit.xml
+
+# CI/CD settings (optional)
+/.github/
+.circleci/
+.gitlab-ci.yml
+
+# VSCode and other editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# macOS and Linux specific files
+.DS_Store
+Thumbs.db
+.vscode/
+*~
+*.lock
+
+# Ignore build artifacts and compiled files
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Django Ninja static files
+.ninja-statics/
+
+# Python environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Django Ninja API schemas (if generated)
+/openapi/
+
+# Ignore other sensitive files
+secrets.json

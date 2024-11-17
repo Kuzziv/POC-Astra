@@ -103,6 +103,9 @@ from yourapp.models import YourModel
 from yourapp.views import functionName
 ```
 
+## Swagger documention
+http://127.0.0.1:8000/api/docs
+
 ## Additional Notes
 
 - Make sure the virtual environment is activated before running any `manage.py` commands.
